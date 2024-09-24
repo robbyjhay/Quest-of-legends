@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest of Legends - Epic Fantasy Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Quest of Legends</h1>
+            <p>Join the battle to save the mystical kingdom from dark forces.</p>
+            <a href="#preorder" class="cta-button">Pre-order Now</a>
+        </div>
+    </section>
+
+    <!-- Game Trailer -->
+    <section class="trailer-section">
+        <h2>Game Trailer</h2>
+        <div class="trailer-container">
+            <video autoplay muted controls id="gameTrailer" poster="trailer-thumbnail.jpg">
+                <source src="/assets/trailer/game trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button onclick="toggleSound()" id="soundButton" class="sound-btn">Unmute</button>
+        </div>
+    </section>
+
+<!-- Preview Game Section -->
+<section class="preview-game">
+    <h2>Preview the Game</h2>
+    <p>Get an exclusive first look at the world of Quest of Legends. Explore its mystical landscapes, epic battles, and legendary heroes in this sneak peek.</p>
+    <div class="preview-container">
+        <div class="preview-game-image">
+            <!-- Replace with an image or a video background -->
+            <img src="https://scontent-los2-1.xx.fbcdn.net/o1/v/t0/f1/m340/genai_m4_cln_cco_v3:upload_img_24884057_09_21_2024_05_06_02_914710_164863322633119321.jpeg?_nc_ht=scontent-los2-1.xx.fbcdn.net&_nc_cat=109&ccb=9-4&oh=00_AYDqKR5NjcUCEJT3gwVI9i8tbiprG1eUrNvHh8SEPQuzew&oe=66F08C8D&_nc_sid=5b3566" alt="Game Preview Image">
+            <div class="preview-overlay">
+                <a href="preview.html"><button class="cta-play">Play Preview</button></a>
+            </div>
+        </div>
+    </div>
+    <a href="#preorder" class="cta-button">Pre-order Now</a>
+</section>
+
+</section>
+
+
+    <!-- Game Features -->
+    <section class="features">
+        <h2>Game Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="icon-battle"></i>
+                <h3>Epic Battles</h3>
+                <p>Engage in thrilling, strategic combat with powerful foes.</p>
+            </div>
+            <div class="feature-item">
+                <i class="icon-world"></i>
+                <h3>Mystical Worlds</h3>
+                <p>Explore enchanted forests, ancient castles, and more.</p>
+            </div>
+            <div class="feature-item">
+                <i class="icon-heroes"></i>
+                <h3>Powerful Heroes</h3>
+                <p>Choose from legendary characters with unique skills.</p>
+            </div>
+            <div class="feature-item">
+                <i class="icon-magic"></i>
+                <h3>Magical Powers</h3>
+                <p>Wield incredible magic to overcome any obstacle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character Showcase -->
+    <section class="characters">
+        <h2>Main Characters</h2>
+        <div class="character-grid">
+            <div class="character-item">
+                <img src="https://scontent-los2-1.xx.fbcdn.net/o1/v/t0/f1/m340/genai_m4_cco_vll_v3:upload_img_44439274_09_21_2024_01_04_29_756980_7755107803378517125.jpeg?_nc_ht=scontent-los2-1.xx.fbcdn.net&_nc_cat=107&ccb=9-4&oh=00_AYCSBoxVBZcZuyaVk5D-n5CwB4-H2laOR-NcRdA0YX9U-g&oe=66F04070&_nc_sid=5b3566" alt="Character 1">
+                <div class="character-overlay">
+                    <p><b style="color: #ff6600; font-size: 2em;">Eira Shadowglow</b> <br>The fearless warrior with unmatched strength.</p>
+                </div>
+            </div>
+            <div class="character-item">
+                <img src="https://scontent-los2-1.xx.fbcdn.net/o1/v/t0/f1/m340/genai_m4_cco_ldc_v3:upload_img_1422531_09_21_2024_01_34_50_571460_3961601761086018741.jpeg?_nc_ht=scontent-los2-1.xx.fbcdn.net&_nc_cat=104&ccb=9-4&oh=00_AYCuFaaLKiTckRkAVy8_rchK9NemsdPscS6HncnEmaV5Ww&oe=66F05AD6&_nc_sid=5b3566" alt="Character 2">
+                <div class="character-overlay">
+                    <p><b style="color: #ff6600; font-size: 2em;">Lyra Moonwhisper</b> <br> The cunning mage, master of elemental magic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pre-order Section -->
+    <section id="preorder" class="preorder">
+        <h2>Pre-order Now</h2>
+        <div class="edition-grid">
+            <div class="edition-item">
+                <h3>Standard Edition</h3>
+                <p>Includes base game.</p>
+                <button class="cta-preorder">Pre-order</button>
+            </div>
+            <div class="edition-item">
+                <h3>Collector's Edition</h3>
+                <p>Includes exclusive skins, weapons, and art book.</p>
+                <button class="cta-preorder">Pre-order</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown">
+        <h2>Release Countdown</h2>
+        <div id="timer" class="timer-display"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Quest of Legends. Follow us on <a href="#">Social Media</a> for updates.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
