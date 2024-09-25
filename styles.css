@@ -34,7 +34,7 @@ a {
 .hero {
     position: relative;
     height: 100vh;
-    background: url('https://scontent-los2-1.xx.fbcdn.net/o1/v/t0/f1/m340/genai_m4_cln_nha_v3:upload_img_54693770_09_21_2024_04_55_40_989377_2099476015297431635.jpeg?_nc_ht=scontent-los2-1.xx.fbcdn.net&_nc_cat=103&ccb=9-4&oh=00_AYDzXRAect0aMTGgNQLH124myoww5Xg6CoSqz0lTvNrL9A&oe=66F08C30&_nc_sid=5b3566') no-repeat center center/cover;
+    background: url('assets/img/index/bg.jpeg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
